@@ -1,0 +1,27 @@
+# Local Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude any files that end in .tfstate or .tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Local .terraform directories
+.terraform/
+
+# Ignore override files as they are usually local changes
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Exclude any AWS credential files
+.aws/credentials
+.aws/config
